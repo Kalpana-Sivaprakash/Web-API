@@ -87,6 +87,16 @@ questionsElement.setAttribute("class", "hide");
 }
 
 
+function clockTick(){
+    time--;
+    timerElement.textContent = time;
+
+    if(time<=0) {
+        quizEnd();
+    }
+
+}
+
 function startQuiz(){
 let startScreenElement = document.getElementById("start-screen");
 startScreenElement.setAttribute("class", "hide");
@@ -104,15 +114,7 @@ getQuestion();
 }
 
 
-function clockTick(){
-    time--;
-    timerElement.textContent = time;
 
-    if(time<=0) {
-        quizEnd();
-    }
-
-}
 function saveHighScore(){
 
 let initials = initialElement.value.trim();
