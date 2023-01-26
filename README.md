@@ -16,7 +16,8 @@ N/A
 ## Usage 
 This application is used to take coding assessment with multiple choice questions and finally we can see the highscore and time details.
 
-![screenshot]
+![screenshot](assets/image/SC1.PNG)
+![screenshot](assets/image/SC2.PNG)
 
 
 ## Credits
